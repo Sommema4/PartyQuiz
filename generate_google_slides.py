@@ -12,7 +12,8 @@ RANGE_NAME = 'otazky!A:C'  # All rows, columns A-C (Téma, Odpovědi, Poznámky)
 # Scopes - what permissions we need
 SCOPES = [
     'https://www.googleapis.com/auth/spreadsheets.readonly',
-    'https://www.googleapis.com/auth/presentations'
+    'https://www.googleapis.com/auth/presentations',
+    'https://www.googleapis.com/auth/drive'
 ]
 
 def get_credentials():
@@ -116,7 +117,7 @@ def parse_quiz(data):
     return topics
 
 
-def create_presentation(creds, title, topics_data):
+def create_presentation(creds, title, topics_data, folder_id=None):
     """
     Creates a Google Slides presentation with quiz questions.
     Each slide has:
@@ -130,6 +131,28 @@ def create_presentation(creds, title, topics_data):
         body = {'title': title}
         presentation = service.presentations().create(body=body).execute()
         presentation_id = presentation.get('presentationId')
+        
+        # Move to the same folder as the spreadsheet if folder_id provided
+        if folder_id:
+            try:
+                drive_service = build('drive', 'v3', credentials=creds)
+                file = drive_service.files().get(fileId=presentation_id, fields='parents').execute()
+                previous_parents = ",".join(file.get('parents', []))
+                
+                print(f"  Moving from: {previous_parents}")
+                print(f"  Moving to: {folder_id}")
+                
+                # Update file to move to the shared folder
+                result = drive_service.files().update(
+                    fileId=presentation_id,
+                    addParents=folder_id,
+                    removeParents=previous_parents,
+                    fields='id, parents'
+                ).execute()
+                print(f"  ✓ Moved successfully! New parents: {result.get('parents', [])}")
+            except Exception as e:
+                print(f"  Warning: Could not move presentation: {e}")
+                print(f"  Presentation remains in My Drive")
         
         print(f"Created presentation: {title}")
         print(f"ID: {presentation_id}")
@@ -268,6 +291,21 @@ def main():
         print("No data to process. Exiting.")
         return
     
+    # Get the folder of the spreadsheet
+    folder_id = None
+    try:
+        drive_service = build('drive', 'v3', credentials=creds)
+        file = drive_service.files().get(fileId=SPREADSHEET_ID, fields='parents').execute()
+        parents = file.get('parents', [])
+        if parents:
+            folder_id = parents[0]
+            print(f"✓ Found spreadsheet folder ID: {folder_id}")
+        else:
+            print("Note: Spreadsheet has no parent folder (might be in root)")
+    except Exception as e:
+        print(f"Note: Could not get spreadsheet folder: {e}")
+        print("Presentations will be saved to 'My Drive'")
+    
     # Parse quiz data
     topics = parse_quiz(data)
     print(f"\n✓ Parsed {len(topics)} topics")
@@ -286,7 +324,7 @@ def main():
         title = f"Party Quiz - {' & '.join(topic_names)}"
         
         print(f"\nCreating presentation {i//2 + 1}: {title}")
-        presentation_id = create_presentation(creds, title, batch_topics)
+        presentation_id = create_presentation(creds, title, batch_topics, folder_id)
         
         if presentation_id:
             presentation_ids.append(presentation_id)

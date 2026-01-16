@@ -1,0 +1,1270 @@
+{
+  "timestamp": "2026-01-16T23:35:27.375045",
+  "summary": {
+    "total_questions": 60,
+    "grammar_issues": 27,
+    "answer_issues": 0
+  },
+  "topics": [
+    {
+      "topic_name": "1. Aktuality",
+      "questions": [
+        {
+          "question": "1) Americký ozbrojený vpád do Venezuely, při kterém se Američané zmocnili tamního prezidenta Nicolase Madura, vyvolal ve světě vlnu rozporuplných emocí. Víte, jaká byla Madurova občanská profese předtím, než se stal prezidentem?\nA) Učitel\nB) Řezník\nC) Pekař\nD) Řidič autobusu",
+          "answer": "D) Řidič autobusu",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Nicolas Maduro byl předtím, než se stal prezidentem, skutečně řidičem autobusu."
+            }
+          }
+        },
+        {
+          "question": "2) Dne 1. ledna 2026 přijal euro stát, který se tak stal 21. členem eurozóny. O kterou zemi se jedná a jaká měna byla Eurem nahrazena? Za každou informaci dostanete 0.5 bodu.",
+          "answer": "Bulharsko, Lev",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď správně uvádí, že Bulharsko přijme euro a že nahradí měnu Lev."
+            }
+          }
+        },
+        {
+          "question": "3) Médii proběhla v minulém týdnu zpráva, že firma Matel vydá novou barbie panenku. Ta bude mít jisté specifikum. Jaké?\nA) Je autista\nB) Nemá vlasy\nC) Chybí ji některé končetiny\nD) Je obézní",
+          "answer": "A) Je autista",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "barbie panenku",
+                  "corrected": "Barbie panenku"
+                },
+                {
+                  "original": "Chybí ji některé končetiny",
+                  "corrected": "Chybí jí některé končetiny"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi, která uvádí specifikum nové panenky Barbie."
+            }
+          }
+        },
+        {
+          "question": "4) \"Zelenského X\" - Tomio Okamura ve svém projevu opět zářil a nezůstalo to bez odezvy. My se Vás ptáme na výraz X, který v politickém smyslu nejčastěji znamená nedemokratickou vládu nastolenou vojenským pučem, tvořenou skupinou vojenských představitelů.",
+          "answer": "Chunta",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď 'Chunta' odpovídá očekávané odpovědi, která označuje nedemokratickou vládu nastolenou vojenským pučem."
+            }
+          }
+        },
+        {
+          "question": "5) V současné chvíli začíná v Kině kotelna promítání filmu, který se jmenuje Virtuální přítelkyně. Se kterou online platformou je vyprávění o třech ženách spjato. Kdo je režisérem dokumentu? Za každou informaci dostanete 0.5 bodu.",
+          "answer": "Onlyfans / Barbora Chalupová",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "Se kterou online platformou",
+                  "corrected": "S kterou online platformou"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi, včetně názvu platformy a jména režiséra."
+            }
+          }
+        },
+        {
+          "question": "6) Prezident Guy Parmelin označil požár v baru za jednu z největších tragédií v historii. Ze které země vyšla zpráva o obrovské trágédii, která měla na svědomí desítky životů a vznikla v rámci Silvestrovských oslav?",
+          "answer": "Švýcarsko",
+          "notes": "Tohle mi připadá jako dost jednoduchý v porovnání s těma ostatníma otázkáma v tomhle kole, ale asi je ok. 😃",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "tragédií",
+                  "corrected": "tragédií,"
+                },
+                {
+                  "original": "Silvestrovských",
+                  "corrected": "silvestrovských"
+                }
+              ],
+              "confidence": 85
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď 'Švýcarsko' odpovídá očekávané odpovědi."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": "2. Hadi",
+      "questions": [
+        {
+          "question": "1) Poznávačka:\n2 obrázky\nUvěďte rodové i druhové jméno dvou hadů z obrázku, které se vyskytují i na území ČR. Pouze za rodová jména dostanete 0.5 bodu.",
+          "answer": "Užovka obojková - Zmije obecná",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "rodové i druhové jméno",
+                  "corrected": "rodové a druhové jméno"
+                },
+                {
+                  "original": "Pouze za rodová jména dostanete 0.5 bodu.",
+                  "corrected": "Pouze za rodová jména dostanete 0,5 bodu."
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi, oba hady se vyskytují na území ČR."
+            }
+          }
+        },
+        {
+          "question": "2) Jak se nazývá znak lékařů a farmaceutů. Symbol nese název podle starověkého řeckého boha lékařství, syna boha Apollóna, jenž léčil všechny nemoci a dokonce dovedl oživovat mrtvé.",
+          "answer": "Aeskulapova hůl",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "2) Jak se nazývá znak lékařů a farmaceutů.",
+                  "corrected": "2) Jak se nazývá znak lékařů a farmaceutů?"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď 'Aeskulapova hůl' přesně odpovídá očekávané odpovědi a je naprosto správná."
+            }
+          }
+        },
+        {
+          "question": "3) Kteří z následujících hadů patří mezi tzv. škrtiče:\nA) krajta tygrovitá\nB) kobra královská\nC) anakonda velká\nD) hroznýš královský\nE) chřestýš černoocasý",
+          "answer": "A, C, D",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď obsahuje správné škrtiče, které patří mezi hady, kteří škrti svou kořist. Krajta tygrovitá, anakonda velká a hroznýš královský jsou správné odpovědi."
+            }
+          }
+        },
+        {
+          "question": "4) Který z těchto výrazů označuje studenokrevnost hadů?\nA) ektotermie\nB) endotermie\nC) homoiotermie\nD) homofobie\n\nKterý z těchto výrazů označuje strach z hadů?\nE) ornitofobie\nF) agorafobie\nG) ofidiofobie\nH) zoofobie",
+          "answer": "A) ektotermie, G) ofidiofobie",
+          "notes": "mám prdící otázku z Na lovu",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi pro studenokrevnost hadů i strach z hadů."
+            }
+          }
+        },
+        {
+          "question": "5) Film:\n- Jak se jmenoval had Lorda Voldemorta ze série Harry Potter. \n- Z jakého filmu můžeme znát hlášku \"Tati a prdí taky hadi\"\nKaždá informace za 0.5 bodu.",
+          "answer": "Nagini, S tebou mě baví svět",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "had Lorda Voldemorta",
+                  "corrected": "had Lorda Voldemorta,"
+                },
+                {
+                  "original": "Tati a prdí taky hadi",
+                  "corrected": "Tati, a prdí taky hadi"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi."
+            }
+          }
+        },
+        {
+          "question": "T) Hru snake/had jsme mohli hrát také na legendární Nokii 3310. Tipněte, kolik dní uběhlo od prvního vydání této nokie do prodeje.",
+          "answer": "1.9.2000 -> 17.1.2026 = 9269 dní",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "nokia",
+                  "corrected": "Nokie"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi včetně dat a počtu dní."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": "3. Rok 2025 - zajímavé události, osobnosti, co se stalo v těchto měsících",
+      "questions": [
+        {
+          "question": "1) Praha, 11. února 2025: Česká společnost ornitologická (ČSO) vyhlašuje ptákem roku 2025 jedince, který se nevyhýbá ani blízkosti lidských sídel. Jeho život je spjatý s vodou. O koho se jedná?\nA) rehek domácí \nB) zvonek zelený\nC) konipas horský\n\nRok 2025 (29. ledna 2025 a skončí 16. února 2026) v čínském horoskopu je rokem:\n\nD) Rychlého Králíka\nE) Dřevěného Hada\nF) Drzé Opice",
+          "answer": "C) konipas horský, B) Dřevěného Hada",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi pro oba části otázky."
+            }
+          }
+        },
+        {
+          "question": "2) Ve kterém švýcarském městě proběhl v polovině května 69. ročník soutěže Eurovize? Napovíme Vám, že po Curychu a Ženevě se jedná o třetí největší město státu.",
+          "answer": "Basilej",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Basilej je skutečně třetím největším městem Švýcarska a hostilo Eurovizi v roce 1974."
+            }
+          }
+        },
+        {
+          "question": "3) Nobelovu cenu míru by si samozřejmě ze všech nejvíc zasloužil Donald Trump, ale ještě si na ni bude muset počkat. Kdo ji letos dostal?\n\nA) Maria Corina Machadová\nB) Nihon Hidankjó\nC) Centrum občanských svobod\nD) Narghís Mohammadiová",
+          "answer": "A) Maria Corina Machadová",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": false,
+              "confidence": 90,
+              "explanation": "V roce 2023 Nobelovu cenu míru obdržela Narghís Mohammadiová, nikoli Maria Corina Machadová."
+            }
+          }
+        },
+        {
+          "question": "4) Tato společnost/služba byla založena v roce 2003, dva roky poté ho koupil internetový gigant eBay za 2,6 miliardy dolarů. Dle plánu byla ale 5. května 2025 zrušena. O čem mluvíme?",
+          "answer": "Skype",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď 'Skype' odpovídá očekávané odpovědi, která také uvádí správný rok založení, koupi eBay a zrušení služby."
+            }
+          }
+        },
+        {
+          "question": "5) Ano, tajemná obálka s údajně posledními slovy jisté osobnosti byla slavnostně otevřena 19. září 2025 v Lánech za účasti prezidenta Petra Pavla a zástupců archivů, čímž se po desetiletích odtajnil její obsah. Kdo byl autorem obsahu obálky?",
+          "answer": "T.G.M",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď odpovídá očekávané odpovědi a je správná."
+            }
+          }
+        },
+        {
+          "question": "6) 3.–4. října proběhly volby do Poslanecké sněmovny. Jak všichni víme, volby vyhrálo hnutí ANO. Pamatujete si ale, která strana skončila na 3. místě?",
+          "answer": "STAN",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď 'STAN' je shodná s očekávanou odpovědí."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": "4. Vlajky",
+      "questions": [
+        {
+          "question": "7) Kolik různých barev byste potřebovali, abychom mohli nakreslit vlajky všech našich sousedních států? (ano, bílá je taky barva)",
+          "answer": "bílá, modrá, červená, černá, žlutá = 5",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď odpovídá očekávané odpovědi včetně uvedených barev a správného počtu."
+            }
+          }
+        },
+        {
+          "question": "8) Která ze zmíněných zemí nemá na vlajce ptáka:\nA) Kazachstán\nB) Mexiko\nC) Libanon\nD) Albánie\n\nKterá ze zmíněných zemí nemá na vlajce kříž:\nE) Malta\nF) Švýcarsko\nC) Anglie\nD) Litva",
+          "answer": "C, D",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "C) Anglie",
+                  "corrected": "G) Anglie"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď C (Anglie) a D (Litva) je správná, protože Anglie má na vlajce kříž svatého Jiří a Litva žádný kříž na své vlajce nemá."
+            }
+          }
+        },
+        {
+          "question": "9) Vlajku, kterou vidíte vlevo byla vlajka daného státu v letech 1977-2011 - jakou vlajku má dneska ABCD",
+          "answer": "D",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "byla vlajka",
+                  "corrected": "byla"
+                }
+              ],
+              "confidence": 85
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď 'D' se shoduje s očekávanou odpovědí."
+            }
+          }
+        },
+        {
+          "question": "10) Přiřaďte vlajku státu světadílu, do kterého patří:\n\n1) Evropa\n2) Asie\n3) Jižní Amerika\n4) Afrika\n\nA) Surinam\nB) Pobřeží slonoviny\nC) Kypr\nD) Srí Lanka",
+          "answer": "1C, 2D, 3A, 4B",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď se shoduje s očekávanou odpovědí. Každá přiřazená vlajka správně odpovídá světadílu."
+            }
+          }
+        },
+        {
+          "question": "11) Českými vlajkonoši na slavnostním zahájení Letních olympijských her v Paříži 2024 byl muž, který nesl vlajku již v roce 2016 a nadějná lukostřelkyně; oba nesli vlajku společně, což bylo poprvé, kdy Česko mělo na zahájení dva vlajkonoše. Za každého vlajkonoše dostanete 0.5 bodu.",
+          "answer": "Lukáš Krpálek, Marie Horáčková",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "0.5",
+                  "corrected": "0,5"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď odpovídá očekávané odpovědi bez jakýchkoliv chyb."
+            }
+          }
+        },
+        {
+          "question": "T) I když existuje mnoho světových vlajek, které zahrnují širokou škálu barev, země, která použila nejvíce barev ve své vlajce je jednoznačně vlajka Belize. Tipněte, kolik barev má na sobě tato vlajka.",
+          "answer": "12",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "ve své vlajce je jednoznačně vlajka Belize.",
+                  "corrected": "ve své vlajce, je jednoznačně vlajka Belize."
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Vlajka Belize má skutečně 12 barev, což odpovídá očekávané odpovědi."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": "5. Hudební kolo",
+      "questions": [
+        {
+          "question": "https://www.youtube.com/watch?v=WAtMn4YS_GA",
+          "answer": "ABBA - Dancing Queen",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi bez jakýchkoli odchylek."
+            }
+          }
+        },
+        {
+          "question": "https://www.youtube.com/watch?v=iKzfwvd_XOI",
+          "answer": "Clash - Should I Stay Or Should I Go",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi, včetně názvu písně a interpreta."
+            }
+          }
+        },
+        {
+          "question": "https://www.youtube.com/watch?v=XW8UR2we1X4",
+          "answer": "Beatles - Help",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi."
+            }
+          }
+        },
+        {
+          "question": "https://www.youtube.com/watch?v=oH7VZFwrpAs",
+          "answer": "Nena - 99 Luftballons",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi, včetně jména interpreta a názvu písně."
+            }
+          }
+        },
+        {
+          "question": "https://www.youtube.com/watch?v=ZSIVFPJXaUQ",
+          "answer": "Ed Sheeran - Bad Habits",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi."
+            }
+          }
+        },
+        {
+          "question": "https://www.youtube.com/watch?v=pXYWDtXbBB0",
+          "answer": "Miley Cyrus - We Can't Stop",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": "6. Vyber si téma a variantu\nVarianta 1 = X nebo Y za 1 bod\nVarianta 2 = X a Y - obě za 1.5, 1 za 0\nVarianta 3 = X a Y - každá za 0.5",
+      "questions": [
+        {
+          "question": "1) X = Kapitán Arthur Hastings je pomocníkem jistého známějšího detektiva. Se kterým detektivem je Arhur spjatý?\nY = Jako mistr sci-fi je označován autor knih Já, Robot či Nadace. Mimo jiné je autorem tří zákonů robotiky. O koho se jedná?",
+          "answer": "X = Hercul Poirot\nY = Isaac Asimov",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "Arhur",
+                  "corrected": "Arthur"
+                }
+              ],
+              "confidence": 95
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď shoduje s očekávanou odpovědí pro oba dotazy."
+            }
+          }
+        },
+        {
+          "question": "2) X = Jak se nazývá třináctidílná série, patrně první československý krimiseriál, s detektivy ztvárněnými Jaroslavem Marvanem, Josefem Bláhou, Františkem Filipovským a Josefem Vinklářem?\nY = V knize Harry Potter a Ohnivý pohár zemře běhěm Turnaje tří kouzelníků Cedric Diggory. Kdo ho zabije?",
+          "answer": "X = Hříšní lidé města pražského\nY = Peter Pettigrew (Červíček)",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "běhěm",
+                  "corrected": "během"
+                }
+              ],
+              "confidence": 95
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Obě části zadané odpovědi odpovídají očekávaným odpovědím."
+            }
+          }
+        },
+        {
+          "question": "1) X = Jak se nazývá zločinecký génius, kterého Holmes popisuje jako Napoleona zločinu a bývá označován jako jeho úhlavní nepřítel.\nY = Čaroprávnost, Mort, Soudné sestry, Sekáč či Pyramidy jsou knihy, které jsou součástí série zhruba 65 knih skupiny britských autorů. Jak se série jmenuje?",
+          "answer": "X = Profesor James Moriarty\nY = Úžasná Zeměplocha",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Odpověď X i Y jsou správné podle literárních děl Sherlocka Holmese a série Úžasná Zeměplocha."
+            }
+          }
+        },
+        {
+          "question": "4) X = Herečka Glysin Barber a herec Michael Brandon se proslavili mimo jiné v sériálu, kde pracovali pro tajnou jednotku SI-10. O kterém pořadu, který vzinkl po úspěchu seriálu Profesionálové, mluvíme?\nY =  Jak se nazývají skřítkové z fantasy pohádkových knih a komiksů švédsky píšící finské spisovatelky a výtvarnice Tove Janssonové, kteří na první pohled mohou připomínat jistého obojživelníka?",
+          "answer": "X = Dempsey a Makepeaceová\nY= Mumínci",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "vzinkl",
+                  "corrected": "vznikl"
+                },
+                {
+                  "original": "Tove Janssonové",
+                  "corrected": "Tove Jansson"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Obě zadané odpovědi na otázky X i Y jsou správné a odpovídají očekávaným odpovědím."
+            }
+          }
+        },
+        {
+          "question": "5) X = Druhé série detektivní show Zrádci Česko se účastnila také paní Kateřina, jenž bylo krycí jméno pro vyšetřovatelku například Orlických vražd. O koho se jedná? (fotka)\nY = Jaký je pseudonym autora knih Lovci kostí, Vzpomínky ledu a Půlnoční vlny, které jsou považovány jedny z nejlepších v žánru Fantasy a Sci-Fi.",
+          "answer": "X = Jiřina Hofmanová\nY = Steven Erikson",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "jenž bylo krycí jméno",
+                  "corrected": "jež bylo krycí jméno"
+                },
+                {
+                  "original": "považovány jedny z nejlepších",
+                  "corrected": "považovány za jedny z nejlepších"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď se shoduje s očekávanou odpovědí pro oba případy."
+            }
+          }
+        },
+        {
+          "question": "T) Fox Mulder a Dana Scullyová jsou detektivové ve sci-fi sérii Akta-X. Tipněte, kolik let v současnosti maji dohromady aktéři David Duchovny a Gillian Andersonová.",
+          "answer": "65 let, 57 let = 122 let",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "maji",
+                  "corrected": "mají"
+                }
+              ],
+              "confidence": 95
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi, uvádí správné věky obou herců a jejich součet."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": "7. Seřazovačka",
+      "questions": [
+        {
+          "question": "1) Seřaďte události roku podle data od nejdřívejšího po nejpozdější v daném roce:\n\nA) Mezinárodní den žen - 8. března\nB) Den otců - třetí červnová neděle\nC) Den svatého Patrika - 17. března\nD) Den učitelů - 28. března",
+          "answer": "A, C, D, B",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávanému pořadí událostí podle dat."
+            }
+          }
+        },
+        {
+          "question": "2) Seřaďte od nejmenšího po největší:\n\nA) Počet strun na typické koncertní harfě - 47\nB) Století, ve kterém se narodil Petr Veliký - 17.\nC) Vrcholů nad 8000 m n. m. - 14\nD) Počet děr v oficiálním florbalovém míčku - 26",
+          "answer": "C, B, D, A",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď správně seřazuje uvedené položky dle jejich hodnot."
+            }
+          }
+        },
+        {
+          "question": "3) Seřaďte chronologicky bitvy/války:\n\nA) Bitva u Lipan (1434)\nB) Bitva u Slavkova (1805)\nC) Bitva na Bílé hoře (1620)\nD) Bitva u Rastislavova hradu (864)",
+          "answer": "D, A, C, B",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "B) Bitva u Slavkova (1805)",
+                  "corrected": "B) Bitva u Slavkova (1805)"
+                },
+                {
+                  "original": "C) Bitva na Bílé hoře (1620)",
+                  "corrected": "C) Bitva na Bílé hoře (1620)"
+                },
+                {
+                  "original": "D) Bitva u Rastislavova hradu (864)",
+                  "corrected": "D) Bitva u Rastislavova hradu (864)"
+                }
+              ],
+              "confidence": 85
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď se shoduje s očekávanou odpovědí a chronologické uspořádání bitvy/války je správné."
+            }
+          }
+        },
+        {
+          "question": "4) Seřaďte prvky periodické tabulky podle protonových čísel:\n\nA) Uhlík - 6\nB) Zlato - 79\nC) Olovo - 82\nD) Cín - 50",
+          "answer": "A, D, B, C",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď odpovídá očekávané odpovědi podle pořadí protonových čísel."
+            }
+          }
+        },
+        {
+          "question": "5) Seřaďte náboženství podle počtu věřících od nejmenšího po největší:\n\nA) Hinduismus 1200M\nB) Judaismus - 20M\nC) Buddhismus - 500M\nD) Křesťanství - 2400M",
+          "answer": "B, C, A, D",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "od nejmenšího po největší",
+                  "corrected": "od nejmenšího po největšího"
+                },
+                {
+                  "original": "Judaismus - 20M",
+                  "corrected": "Judaismus - 20 mil."
+                },
+                {
+                  "original": "Buddhismus - 500M",
+                  "corrected": "Buddhismus - 500 mil."
+                },
+                {
+                  "original": "Křesťanství - 2400M",
+                  "corrected": "Křesťanství - 2400 mil."
+                }
+              ],
+              "confidence": 85
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď správně seřazuje náboženství podle počtu věřících od nejmenšího po největší."
+            }
+          }
+        },
+        {
+          "question": "6) Seřaďte vojenské hodnosti vzestupně:\n\nA) Četař\nB) Praporčík\nC) Svobodník\nD) Rotmistr",
+          "answer": "C, A, D, B",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď odpovídá očekávané odpovědi ve správném pořadí."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": "8. Postupné nápovědy",
+      "questions": [
+        {
+          "question": "7) Pozněj historickou osobnost\n- jednalo se o teologa, katolického kněze, univerzitního profesora, augustinianského mnicha a kazatele\n- žil na přelomu 15. a 16 století\n- byl zakladatelem nejstarší protestantské církve, která nesla název podle něj",
+          "answer": "Martin Luther",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "16 století",
+                  "corrected": "16. století"
+                },
+                {
+                  "original": "název podle něj",
+                  "corrected": "název podle něho"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Odpověď 'Martin Luther' odpovídá historické osobnosti, která byla teologem, katolickým knězem, univerzitním profesorem a zakladatelem luteránství."
+            }
+          }
+        },
+        {
+          "question": "8) Poznej značku automobilu\n- 24. června 1910 byl v Miláně založen předchůdce této značky\n- ve svém znaku nese mimo jiné kříž a hada\n- ve svém názvu nese písmenko řecké abecedy a poslední modely jsou např. Junior nebo tonale",
+          "answer": "Alfa Romeo",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "tonale",
+                  "corrected": "Tonale"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď 'Alfa Romeo' odpovídá očekávané odpovědi a všechny indície v otázce jsou správné a vztahují se k této značce automobilů."
+            }
+          }
+        },
+        {
+          "question": "9) Poznej stát \n- jedná se o 4. nejmenší stát Evropy s rozlohou 160 km2\n- má pouze dva sousedy a jedná se o dvojnásobně vnitrozeský stát\n- hlavní město je Vaduz",
+          "answer": "Lichtenštejnsko",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "vnitrozeský",
+                  "corrected": "vnitrozemský"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď správně identifikuje Lichtenštejnsko, které odpovídá všem uvedeným informacím."
+            }
+          }
+        },
+        {
+          "question": "10) Poznej řeku\n- řeka patří do úmoří Černého moře\n- jedná se o druhou nejdelší řeku v Evropě\n- protéká mnoha hlavními městy, například Budapeští nebo Vídní",
+          "answer": "Dunaj",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "Budapeští",
+                  "corrected": "Budapeští,"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Dunaj je skutečně druhou nejdelší řekou v Evropě, patří do úmoří Černého moře a protéká městy jako Budapešť a Vídeň."
+            }
+          }
+        },
+        {
+          "question": "11) Pozdej div světa\n- patří mezi novodobé divy světa a měl být postaven zhruba v letech 1460–1470\n- díky své poloze nebyl div jednoduše objevitelný kýmkoliv, kdo by ho mohl zničit či rozkrást\n- nachází se v Andách na území Peru",
+          "answer": "Machu Picchu",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "Pozdej",
+                  "corrected": "Později"
+                }
+              ],
+              "confidence": 85
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď 'Machu Picchu' odpovídá očekávané odpovědi, protože splňuje všechny uvedené charakteristiky."
+            }
+          }
+        },
+        {
+          "question": "T. Tipněte si, jaká je vzdálenost vzdušnou čarou mezi obcí Řitka (cca 1400 obyvatel) a obcí Pičín (cca 660 obyvatel).",
+          "answer": "24 km",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané hodnotě 24 km."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": "9. Kvízový detektiv",
+      "questions": [
+        {
+          "question": "1. Jedná se o moderní taneční disciplínu, která spojuje dohromady prvky několika tanců. Balet, valčík nebo salsu s moderními prvky gymnastiky, akrobacie, moderního a volného tance. Cvičenky tancují s vertikálním zafixovanou pomůckou, která se nachází v názvu této disciplíny. Jaké dvouslovné anglické označení toto cvičení nese?",
+          "answer": "Pole Dance",
+          "notes": "Moravské pole",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "zafixovanou",
+                  "corrected": "zafixovanou"
+                },
+                {
+                  "original": "Cvičenky",
+                  "corrected": "Cvičenci"
+                }
+              ],
+              "confidence": 85
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď 'Pole Dance' odpovídá očekávané odpovědi a je správná."
+            }
+          }
+        },
+        {
+          "question": "2. Jakou dvouslovnou přezdívku měla politička, která se stala premiérkou v roce 1979 jako první žena své země. V úřadu zůstala nepřetržitě přes 11,5 roku, nejdéle ze všech hlav britské vlády ve 20. století.",
+          "answer": "Železná Lady",
+          "notes": "železný",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi 'Železná Lady', což je přezdívka Margaret Thatcher."
+            }
+          }
+        },
+        {
+          "question": "3. Které číslo nese v rámci koulí na pool \"oranžová půlka\". Plus logická nápověda",
+          "answer": "13",
+          "notes": "13. století",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "oranžová půlka",
+                  "corrected": "oranžová půlka."
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Oranžová půlka v poolu je číslo 13."
+            }
+          }
+        },
+        {
+          "question": "4. Jak se jmenuje majitel a šéfkuchař restaurace, která vlastní Michelinskou hvězdu a nachází se v Olomouci?",
+          "answer": "Přemek Forejt",
+          "notes": "Přemysl",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď 'Přemek Forejt' odpovídá očekávané odpovědi a je přesná."
+            }
+          }
+        },
+        {
+          "question": "5. Jaký je název bondovky, kterou můžeme vidět na obrázku?",
+          "answer": "Zlaté oko",
+          "notes": "zlatý",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Zadaná odpověď přesně odpovídá očekávané odpovědi."
+            }
+          }
+        },
+        {
+          "question": "6. Přemysl Otakar II.",
+          "answer": "",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            }
+          }
+        }
+      ]
+    },
+    {
+      "topic_name": "10. Mohl?",
+      "questions": [
+        {
+          "question": "7) Mohl teoreticky bývalý prezident USA Abraham Lincoln použít službu Pony express a poslat zásilku vynálezci Thomasovi Alva Edisonovi?",
+          "answer": "ANO",
+          "notes": "Pony Express 1860 – 1861\nAbraham Lincoln 1809 – 1865\nThomas Alva Edison - 1847 - 1931",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Pony Express byl v provozu mezi lety 1860 a 1861, zatímco Abraham Lincoln byl prezidentem od 1861 do 1865. Thomas Edison vynalezl mnoho věcí, ale jeho významné období vynálezů nastalo po této době. Nicméně, odpověď 'ANO' je správná, protože Lincoln teoreticky mohl použít Pony Express pro zaslání zprávy."
+            }
+          }
+        },
+        {
+          "question": "8) Mohl teoreticky dramatik Josef Kajetán Tyl nebo sir Nicholas Winton navštívit první novodobé olympijské hry?",
+          "answer": "NE",
+          "notes": "OH - 1896\nJosef Kajetán Tyl - 1808 - 1856\nNicholas WInton - 1909 - 2015",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 100,
+              "explanation": "Obě osoby, Josef Kajetán Tyl a sir Nicholas Winton, nežily v době prvních novodobých olympijských her, které se konaly v Athénách v roce 1896. Odpověď 'NE' je korektní."
+            }
+          }
+        },
+        {
+          "question": "9) Mohla teoreticky herečka Jiřina Bohdalová vidět z Žižkovské televizní věže pomník J. V. Stalina na Letné?",
+          "answer": "NE",
+          "notes": "Jiřina Bohdalová - 1931 - X\nŽižkovská věž - dokončení 1992\nZbourání pamatínku Stalin - 1962",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Žižkovská televizní věž je vzdálena od Letné, kde se nacházel pomník J. V. Stalina, takže herečka Jiřina Bohdalová teoreticky nemohla vidět tento pomník z uvedené lokace."
+            }
+          }
+        },
+        {
+          "question": "10) Mohl teoreticky anglický dramatik Wiliam Shakespear nebo lord protektor Oliver Cromwell použít Guttenbergův knihtisk (jakýkoliv)?",
+          "answer": "ANO",
+          "notes": "Knihtisk - cca 1440\nWilliam Shakespeare - 1564 - 1616\nOliver Cromwell - 1599 - 1658",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "Wiliam Shakespear",
+                  "corrected": "William Shakespeare"
+                },
+                {
+                  "original": "Guttenbergův",
+                  "corrected": "Gutenbergův"
+                },
+                {
+                  "original": "jakýkoliv",
+                  "corrected": "jakýkoli"
+                }
+              ],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Odpověď je správná, protože Gutenbergův knihtisk byl vynalezen v 15. století a byl dostupný dlouho před životem obou historických osobností, což umožňuje teoretickou možnost použití."
+            }
+          }
+        },
+        {
+          "question": "11) Mohl teoreticky herec Charlie Chaplin a zápasník Gustav Frištenský přežít zkázu Titanicu?",
+          "answer": "ANO",
+          "notes": "Titanic - 1912\nCharlie Chaplin - 1889 - 1977\nGustav Frištenský - 1879 - 1957",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": true,
+              "corrections": [
+                {
+                  "original": "Mohl teoreticky herec Charlie Chaplin a zápasník Gustav Frištenský přežít zkázu Titanicu?",
+                  "corrected": "Mohl teoreticky herec Charlie Chaplin a zápasník Gustav Frištenský přežít zkázu Titanicu."
+                }
+              ],
+              "confidence": 95
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 90,
+              "explanation": "Odpověď je správná, protože teoreticky mohl Chaplin a Frištenský přežít, pokud by se nacházeli na palubě a dokázali by najít záchranné čluny."
+            }
+          }
+        },
+        {
+          "question": "T) Tipněte, jaký byl dle ČSÚ pro školní rok 2024/2025 celkový počet absolventů vysokých škol (veřejných i soukromých dohromady).",
+          "answer": "66 379",
+          "notes": "",
+          "llm_checks": {
+            "grammar": {
+              "has_errors": false,
+              "corrections": [],
+              "confidence": 90
+            },
+            "answer": {
+              "is_correct": true,
+              "confidence": 95,
+              "explanation": "Zadaná odpověď se shoduje s očekávanou odpovědí."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

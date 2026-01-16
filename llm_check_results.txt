@@ -1,0 +1,1147 @@
+======================================================================
+LLM KONTROLA KVÍZU - VÝSLEDKY
+Datum: 16.01.2026 23:35:27
+======================================================================
+
+
+======================================================================
+TÉMA 1: 1. Aktuality
+======================================================================
+
+Otázka 1:
+  Text: 1) Americký ozbrojený vpád do Venezuely, při kterém se Američané zmocnili tamního prezidenta Nicolase Madura, vyvolal ve světě vlnu rozporuplných emocí. Víte, jaká byla Madurova občanská profese předtím, než se stal prezidentem?
+A) Učitel
+B) Řezník
+C) Pekař
+D) Řidič autobusu
+  Odpověď: D) Řidič autobusu
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Nicolas Maduro byl předtím, než se stal prezidentem, skutečně řidičem autobusu.
+
+----------------------------------------------------------------------
+
+Otázka 2:
+  Text: 2) Dne 1. ledna 2026 přijal euro stát, který se tak stal 21. členem eurozóny. O kterou zemi se jedná a jaká měna byla Eurem nahrazena? Za každou informaci dostanete 0.5 bodu.
+  Odpověď: Bulharsko, Lev
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď správně uvádí, že Bulharsko přijme euro a že nahradí měnu Lev.
+
+----------------------------------------------------------------------
+
+Otázka 3:
+  Text: 3) Médii proběhla v minulém týdnu zpráva, že firma Matel vydá novou barbie panenku. Ta bude mít jisté specifikum. Jaké?
+A) Je autista
+B) Nemá vlasy
+C) Chybí ji některé končetiny
+D) Je obézní
+  Odpověď: A) Je autista
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'barbie panenku' → 'Barbie panenku'
+      • 'Chybí ji některé končetiny' → 'Chybí jí některé končetiny'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi, která uvádí specifikum nové panenky Barbie.
+
+----------------------------------------------------------------------
+
+Otázka 4:
+  Text: 4) "Zelenského X" - Tomio Okamura ve svém projevu opět zářil a nezůstalo to bez odezvy. My se Vás ptáme na výraz X, který v politickém smyslu nejčastěji znamená nedemokratickou vládu nastolenou vojenským pučem, tvořenou skupinou vojenských představitelů.
+  Odpověď: Chunta
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď 'Chunta' odpovídá očekávané odpovědi, která označuje nedemokratickou vládu nastolenou vojenským pučem.
+
+----------------------------------------------------------------------
+
+Otázka 5:
+  Text: 5) V současné chvíli začíná v Kině kotelna promítání filmu, který se jmenuje Virtuální přítelkyně. Se kterou online platformou je vyprávění o třech ženách spjato. Kdo je režisérem dokumentu? Za každou informaci dostanete 0.5 bodu.
+  Odpověď: Onlyfans / Barbora Chalupová
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'Se kterou online platformou' → 'S kterou online platformou'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi, včetně názvu platformy a jména režiséra.
+
+----------------------------------------------------------------------
+
+Otázka 6:
+  Text: 6) Prezident Guy Parmelin označil požár v baru za jednu z největších tragédií v historii. Ze které země vyšla zpráva o obrovské trágédii, která měla na svědomí desítky životů a vznikla v rámci Silvestrovských oslav?
+  Odpověď: Švýcarsko
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 85%
+    Opravy:
+      • 'tragédií' → 'tragédií,'
+      • 'Silvestrovských' → 'silvestrovských'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď 'Švýcarsko' odpovídá očekávané odpovědi.
+
+----------------------------------------------------------------------
+
+
+======================================================================
+TÉMA 2: 2. Hadi
+======================================================================
+
+Otázka 1:
+  Text: 1) Poznávačka:
+2 obrázky
+Uvěďte rodové i druhové jméno dvou hadů z obrázku, které se vyskytují i na území ČR. Pouze za rodová jména dostanete 0.5 bodu.
+  Odpověď: Užovka obojková - Zmije obecná
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'rodové i druhové jméno' → 'rodové a druhové jméno'
+      • 'Pouze za rodová jména dostanete 0.5 bodu.' → 'Pouze za rodová jména dostanete 0,5 bodu.'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi, oba hady se vyskytují na území ČR.
+
+----------------------------------------------------------------------
+
+Otázka 2:
+  Text: 2) Jak se nazývá znak lékařů a farmaceutů. Symbol nese název podle starověkého řeckého boha lékařství, syna boha Apollóna, jenž léčil všechny nemoci a dokonce dovedl oživovat mrtvé.
+  Odpověď: Aeskulapova hůl
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • '2) Jak se nazývá znak lékařů a farmaceutů.' → '2) Jak se nazývá znak lékařů a farmaceutů?'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď 'Aeskulapova hůl' přesně odpovídá očekávané odpovědi a je naprosto správná.
+
+----------------------------------------------------------------------
+
+Otázka 3:
+  Text: 3) Kteří z následujících hadů patří mezi tzv. škrtiče:
+A) krajta tygrovitá
+B) kobra královská
+C) anakonda velká
+D) hroznýš královský
+E) chřestýš černoocasý
+  Odpověď: A, C, D
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď obsahuje správné škrtiče, které patří mezi hady, kteří škrti svou kořist. Krajta tygrovitá, anakonda velká a hroznýš královský jsou správné odpovědi.
+
+----------------------------------------------------------------------
+
+Otázka 4:
+  Text: 4) Který z těchto výrazů označuje studenokrevnost hadů?
+A) ektotermie
+B) endotermie
+C) homoiotermie
+D) homofobie
+
+Který z těchto výrazů označuje strach z hadů?
+E) ornitofobie
+F) agorafobie
+G) ofidiofobie
+H) zoofobie
+  Odpověď: A) ektotermie, G) ofidiofobie
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi pro studenokrevnost hadů i strach z hadů.
+
+----------------------------------------------------------------------
+
+Otázka 5:
+  Text: 5) Film:
+- Jak se jmenoval had Lorda Voldemorta ze série Harry Potter. 
+- Z jakého filmu můžeme znát hlášku "Tati a prdí taky hadi"
+Každá informace za 0.5 bodu.
+  Odpověď: Nagini, S tebou mě baví svět
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'had Lorda Voldemorta' → 'had Lorda Voldemorta,'
+      • 'Tati a prdí taky hadi' → 'Tati, a prdí taky hadi'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi.
+
+----------------------------------------------------------------------
+
+Otázka 6:
+  Text: T) Hru snake/had jsme mohli hrát také na legendární Nokii 3310. Tipněte, kolik dní uběhlo od prvního vydání této nokie do prodeje.
+  Odpověď: 1.9.2000 -> 17.1.2026 = 9269 dní
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'nokia' → 'Nokie'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi včetně dat a počtu dní.
+
+----------------------------------------------------------------------
+
+
+======================================================================
+TÉMA 3: 3. Rok 2025 - zajímavé události, osobnosti, co se stalo v těchto měsících
+======================================================================
+
+Otázka 1:
+  Text: 1) Praha, 11. února 2025: Česká společnost ornitologická (ČSO) vyhlašuje ptákem roku 2025 jedince, který se nevyhýbá ani blízkosti lidských sídel. Jeho život je spjatý s vodou. O koho se jedná?
+A) rehek domácí 
+B) zvonek zelený
+C) konipas horský
+
+Rok 2025 (29. ledna 2025 a skončí 16. února 2026) v čínském horoskopu je rokem:
+
+D) Rychlého Králíka
+E) Dřevěného Hada
+F) Drzé Opice
+  Odpověď: C) konipas horský, B) Dřevěného Hada
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi pro oba části otázky.
+
+----------------------------------------------------------------------
+
+Otázka 2:
+  Text: 2) Ve kterém švýcarském městě proběhl v polovině května 69. ročník soutěže Eurovize? Napovíme Vám, že po Curychu a Ženevě se jedná o třetí největší město státu.
+  Odpověď: Basilej
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Basilej je skutečně třetím největším městem Švýcarska a hostilo Eurovizi v roce 1974.
+
+----------------------------------------------------------------------
+
+Otázka 3:
+  Text: 3) Nobelovu cenu míru by si samozřejmě ze všech nejvíc zasloužil Donald Trump, ale ještě si na ni bude muset počkat. Kdo ji letos dostal?
+
+A) Maria Corina Machadová
+B) Nihon Hidankjó
+C) Centrum občanských svobod
+D) Narghís Mohammadiová
+  Odpověď: A) Maria Corina Machadová
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 90%
+    Vysvětlení: V roce 2023 Nobelovu cenu míru obdržela Narghís Mohammadiová, nikoli Maria Corina Machadová.
+
+----------------------------------------------------------------------
+
+Otázka 4:
+  Text: 4) Tato společnost/služba byla založena v roce 2003, dva roky poté ho koupil internetový gigant eBay za 2,6 miliardy dolarů. Dle plánu byla ale 5. května 2025 zrušena. O čem mluvíme?
+  Odpověď: Skype
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď 'Skype' odpovídá očekávané odpovědi, která také uvádí správný rok založení, koupi eBay a zrušení služby.
+
+----------------------------------------------------------------------
+
+Otázka 5:
+  Text: 5) Ano, tajemná obálka s údajně posledními slovy jisté osobnosti byla slavnostně otevřena 19. září 2025 v Lánech za účasti prezidenta Petra Pavla a zástupců archivů, čímž se po desetiletích odtajnil její obsah. Kdo byl autorem obsahu obálky?
+  Odpověď: T.G.M
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď odpovídá očekávané odpovědi a je správná.
+
+----------------------------------------------------------------------
+
+Otázka 6:
+  Text: 6) 3.–4. října proběhly volby do Poslanecké sněmovny. Jak všichni víme, volby vyhrálo hnutí ANO. Pamatujete si ale, která strana skončila na 3. místě?
+  Odpověď: STAN
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď 'STAN' je shodná s očekávanou odpovědí.
+
+----------------------------------------------------------------------
+
+
+======================================================================
+TÉMA 4: 4. Vlajky
+======================================================================
+
+Otázka 1:
+  Text: 7) Kolik různých barev byste potřebovali, abychom mohli nakreslit vlajky všech našich sousedních států? (ano, bílá je taky barva)
+  Odpověď: bílá, modrá, červená, černá, žlutá = 5
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď odpovídá očekávané odpovědi včetně uvedených barev a správného počtu.
+
+----------------------------------------------------------------------
+
+Otázka 2:
+  Text: 8) Která ze zmíněných zemí nemá na vlajce ptáka:
+A) Kazachstán
+B) Mexiko
+C) Libanon
+D) Albánie
+
+Která ze zmíněných zemí nemá na vlajce kříž:
+E) Malta
+F) Švýcarsko
+C) Anglie
+D) Litva
+  Odpověď: C, D
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'C) Anglie' → 'G) Anglie'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď C (Anglie) a D (Litva) je správná, protože Anglie má na vlajce kříž svatého Jiří a Litva žádný kříž na své vlajce nemá.
+
+----------------------------------------------------------------------
+
+Otázka 3:
+  Text: 9) Vlajku, kterou vidíte vlevo byla vlajka daného státu v letech 1977-2011 - jakou vlajku má dneska ABCD
+  Odpověď: D
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 85%
+    Opravy:
+      • 'byla vlajka' → 'byla'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď 'D' se shoduje s očekávanou odpovědí.
+
+----------------------------------------------------------------------
+
+Otázka 4:
+  Text: 10) Přiřaďte vlajku státu světadílu, do kterého patří:
+
+1) Evropa
+2) Asie
+3) Jižní Amerika
+4) Afrika
+
+A) Surinam
+B) Pobřeží slonoviny
+C) Kypr
+D) Srí Lanka
+  Odpověď: 1C, 2D, 3A, 4B
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď se shoduje s očekávanou odpovědí. Každá přiřazená vlajka správně odpovídá světadílu.
+
+----------------------------------------------------------------------
+
+Otázka 5:
+  Text: 11) Českými vlajkonoši na slavnostním zahájení Letních olympijských her v Paříži 2024 byl muž, který nesl vlajku již v roce 2016 a nadějná lukostřelkyně; oba nesli vlajku společně, což bylo poprvé, kdy Česko mělo na zahájení dva vlajkonoše. Za každého vlajkonoše dostanete 0.5 bodu.
+  Odpověď: Lukáš Krpálek, Marie Horáčková
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • '0.5' → '0,5'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď odpovídá očekávané odpovědi bez jakýchkoliv chyb.
+
+----------------------------------------------------------------------
+
+Otázka 6:
+  Text: T) I když existuje mnoho světových vlajek, které zahrnují širokou škálu barev, země, která použila nejvíce barev ve své vlajce je jednoznačně vlajka Belize. Tipněte, kolik barev má na sobě tato vlajka.
+  Odpověď: 12
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 've své vlajce je jednoznačně vlajka Belize.' → 've své vlajce, je jednoznačně vlajka Belize.'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Vlajka Belize má skutečně 12 barev, což odpovídá očekávané odpovědi.
+
+----------------------------------------------------------------------
+
+
+======================================================================
+TÉMA 5: 5. Hudební kolo
+======================================================================
+
+Otázka 1:
+  Text: https://www.youtube.com/watch?v=WAtMn4YS_GA
+  Odpověď: ABBA - Dancing Queen
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi bez jakýchkoli odchylek.
+
+----------------------------------------------------------------------
+
+Otázka 2:
+  Text: https://www.youtube.com/watch?v=iKzfwvd_XOI
+  Odpověď: Clash - Should I Stay Or Should I Go
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi, včetně názvu písně a interpreta.
+
+----------------------------------------------------------------------
+
+Otázka 3:
+  Text: https://www.youtube.com/watch?v=XW8UR2we1X4
+  Odpověď: Beatles - Help
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi.
+
+----------------------------------------------------------------------
+
+Otázka 4:
+  Text: https://www.youtube.com/watch?v=oH7VZFwrpAs
+  Odpověď: Nena - 99 Luftballons
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi, včetně jména interpreta a názvu písně.
+
+----------------------------------------------------------------------
+
+Otázka 5:
+  Text: https://www.youtube.com/watch?v=ZSIVFPJXaUQ
+  Odpověď: Ed Sheeran - Bad Habits
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi.
+
+----------------------------------------------------------------------
+
+Otázka 6:
+  Text: https://www.youtube.com/watch?v=pXYWDtXbBB0
+  Odpověď: Miley Cyrus - We Can't Stop
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi.
+
+----------------------------------------------------------------------
+
+
+======================================================================
+TÉMA 6: 6. Vyber si téma a variantu
+Varianta 1 = X nebo Y za 1 bod
+Varianta 2 = X a Y - obě za 1.5, 1 za 0
+Varianta 3 = X a Y - každá za 0.5
+======================================================================
+
+Otázka 1:
+  Text: 1) X = Kapitán Arthur Hastings je pomocníkem jistého známějšího detektiva. Se kterým detektivem je Arhur spjatý?
+Y = Jako mistr sci-fi je označován autor knih Já, Robot či Nadace. Mimo jiné je autorem tří zákonů robotiky. O koho se jedná?
+  Odpověď: X = Hercul Poirot
+Y = Isaac Asimov
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 95%
+    Opravy:
+      • 'Arhur' → 'Arthur'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď shoduje s očekávanou odpovědí pro oba dotazy.
+
+----------------------------------------------------------------------
+
+Otázka 2:
+  Text: 2) X = Jak se nazývá třináctidílná série, patrně první československý krimiseriál, s detektivy ztvárněnými Jaroslavem Marvanem, Josefem Bláhou, Františkem Filipovským a Josefem Vinklářem?
+Y = V knize Harry Potter a Ohnivý pohár zemře běhěm Turnaje tří kouzelníků Cedric Diggory. Kdo ho zabije?
+  Odpověď: X = Hříšní lidé města pražského
+Y = Peter Pettigrew (Červíček)
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 95%
+    Opravy:
+      • 'běhěm' → 'během'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Obě části zadané odpovědi odpovídají očekávaným odpovědím.
+
+----------------------------------------------------------------------
+
+Otázka 3:
+  Text: 1) X = Jak se nazývá zločinecký génius, kterého Holmes popisuje jako Napoleona zločinu a bývá označován jako jeho úhlavní nepřítel.
+Y = Čaroprávnost, Mort, Soudné sestry, Sekáč či Pyramidy jsou knihy, které jsou součástí série zhruba 65 knih skupiny britských autorů. Jak se série jmenuje?
+  Odpověď: X = Profesor James Moriarty
+Y = Úžasná Zeměplocha
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Odpověď X i Y jsou správné podle literárních děl Sherlocka Holmese a série Úžasná Zeměplocha.
+
+----------------------------------------------------------------------
+
+Otázka 4:
+  Text: 4) X = Herečka Glysin Barber a herec Michael Brandon se proslavili mimo jiné v sériálu, kde pracovali pro tajnou jednotku SI-10. O kterém pořadu, který vzinkl po úspěchu seriálu Profesionálové, mluvíme?
+Y =  Jak se nazývají skřítkové z fantasy pohádkových knih a komiksů švédsky píšící finské spisovatelky a výtvarnice Tove Janssonové, kteří na první pohled mohou připomínat jistého obojživelníka?
+  Odpověď: X = Dempsey a Makepeaceová
+Y= Mumínci
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'vzinkl' → 'vznikl'
+      • 'Tove Janssonové' → 'Tove Jansson'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Obě zadané odpovědi na otázky X i Y jsou správné a odpovídají očekávaným odpovědím.
+
+----------------------------------------------------------------------
+
+Otázka 5:
+  Text: 5) X = Druhé série detektivní show Zrádci Česko se účastnila také paní Kateřina, jenž bylo krycí jméno pro vyšetřovatelku například Orlických vražd. O koho se jedná? (fotka)
+Y = Jaký je pseudonym autora knih Lovci kostí, Vzpomínky ledu a Půlnoční vlny, které jsou považovány jedny z nejlepších v žánru Fantasy a Sci-Fi.
+  Odpověď: X = Jiřina Hofmanová
+Y = Steven Erikson
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'jenž bylo krycí jméno' → 'jež bylo krycí jméno'
+      • 'považovány jedny z nejlepších' → 'považovány za jedny z nejlepších'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď se shoduje s očekávanou odpovědí pro oba případy.
+
+----------------------------------------------------------------------
+
+Otázka 6:
+  Text: T) Fox Mulder a Dana Scullyová jsou detektivové ve sci-fi sérii Akta-X. Tipněte, kolik let v současnosti maji dohromady aktéři David Duchovny a Gillian Andersonová.
+  Odpověď: 65 let, 57 let = 122 let
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 95%
+    Opravy:
+      • 'maji' → 'mají'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi, uvádí správné věky obou herců a jejich součet.
+
+----------------------------------------------------------------------
+
+
+======================================================================
+TÉMA 7: 7. Seřazovačka
+======================================================================
+
+Otázka 1:
+  Text: 1) Seřaďte události roku podle data od nejdřívejšího po nejpozdější v daném roce:
+
+A) Mezinárodní den žen - 8. března
+B) Den otců - třetí červnová neděle
+C) Den svatého Patrika - 17. března
+D) Den učitelů - 28. března
+  Odpověď: A, C, D, B
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávanému pořadí událostí podle dat.
+
+----------------------------------------------------------------------
+
+Otázka 2:
+  Text: 2) Seřaďte od nejmenšího po největší:
+
+A) Počet strun na typické koncertní harfě - 47
+B) Století, ve kterém se narodil Petr Veliký - 17.
+C) Vrcholů nad 8000 m n. m. - 14
+D) Počet děr v oficiálním florbalovém míčku - 26
+  Odpověď: C, B, D, A
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď správně seřazuje uvedené položky dle jejich hodnot.
+
+----------------------------------------------------------------------
+
+Otázka 3:
+  Text: 3) Seřaďte chronologicky bitvy/války:
+
+A) Bitva u Lipan (1434)
+B) Bitva u Slavkova (1805)
+C) Bitva na Bílé hoře (1620)
+D) Bitva u Rastislavova hradu (864)
+  Odpověď: D, A, C, B
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 85%
+    Opravy:
+      • 'B) Bitva u Slavkova (1805)' → 'B) Bitva u Slavkova (1805)'
+      • 'C) Bitva na Bílé hoře (1620)' → 'C) Bitva na Bílé hoře (1620)'
+      • 'D) Bitva u Rastislavova hradu (864)' → 'D) Bitva u Rastislavova hradu (864)'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď se shoduje s očekávanou odpovědí a chronologické uspořádání bitvy/války je správné.
+
+----------------------------------------------------------------------
+
+Otázka 4:
+  Text: 4) Seřaďte prvky periodické tabulky podle protonových čísel:
+
+A) Uhlík - 6
+B) Zlato - 79
+C) Olovo - 82
+D) Cín - 50
+  Odpověď: A, D, B, C
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď odpovídá očekávané odpovědi podle pořadí protonových čísel.
+
+----------------------------------------------------------------------
+
+Otázka 5:
+  Text: 5) Seřaďte náboženství podle počtu věřících od nejmenšího po největší:
+
+A) Hinduismus 1200M
+B) Judaismus - 20M
+C) Buddhismus - 500M
+D) Křesťanství - 2400M
+  Odpověď: B, C, A, D
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 85%
+    Opravy:
+      • 'od nejmenšího po největší' → 'od nejmenšího po největšího'
+      • 'Judaismus - 20M' → 'Judaismus - 20 mil.'
+      • 'Buddhismus - 500M' → 'Buddhismus - 500 mil.'
+      • 'Křesťanství - 2400M' → 'Křesťanství - 2400 mil.'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď správně seřazuje náboženství podle počtu věřících od nejmenšího po největší.
+
+----------------------------------------------------------------------
+
+Otázka 6:
+  Text: 6) Seřaďte vojenské hodnosti vzestupně:
+
+A) Četař
+B) Praporčík
+C) Svobodník
+D) Rotmistr
+  Odpověď: C, A, D, B
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď odpovídá očekávané odpovědi ve správném pořadí.
+
+----------------------------------------------------------------------
+
+
+======================================================================
+TÉMA 8: 8. Postupné nápovědy
+======================================================================
+
+Otázka 1:
+  Text: 7) Pozněj historickou osobnost
+- jednalo se o teologa, katolického kněze, univerzitního profesora, augustinianského mnicha a kazatele
+- žil na přelomu 15. a 16 století
+- byl zakladatelem nejstarší protestantské církve, která nesla název podle něj
+  Odpověď: Martin Luther
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • '16 století' → '16. století'
+      • 'název podle něj' → 'název podle něho'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Odpověď 'Martin Luther' odpovídá historické osobnosti, která byla teologem, katolickým knězem, univerzitním profesorem a zakladatelem luteránství.
+
+----------------------------------------------------------------------
+
+Otázka 2:
+  Text: 8) Poznej značku automobilu
+- 24. června 1910 byl v Miláně založen předchůdce této značky
+- ve svém znaku nese mimo jiné kříž a hada
+- ve svém názvu nese písmenko řecké abecedy a poslední modely jsou např. Junior nebo tonale
+  Odpověď: Alfa Romeo
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'tonale' → 'Tonale'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď 'Alfa Romeo' odpovídá očekávané odpovědi a všechny indície v otázce jsou správné a vztahují se k této značce automobilů.
+
+----------------------------------------------------------------------
+
+Otázka 3:
+  Text: 9) Poznej stát 
+- jedná se o 4. nejmenší stát Evropy s rozlohou 160 km2
+- má pouze dva sousedy a jedná se o dvojnásobně vnitrozeský stát
+- hlavní město je Vaduz
+  Odpověď: Lichtenštejnsko
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'vnitrozeský' → 'vnitrozemský'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď správně identifikuje Lichtenštejnsko, které odpovídá všem uvedeným informacím.
+
+----------------------------------------------------------------------
+
+Otázka 4:
+  Text: 10) Poznej řeku
+- řeka patří do úmoří Černého moře
+- jedná se o druhou nejdelší řeku v Evropě
+- protéká mnoha hlavními městy, například Budapeští nebo Vídní
+  Odpověď: Dunaj
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'Budapeští' → 'Budapeští,'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Dunaj je skutečně druhou nejdelší řekou v Evropě, patří do úmoří Černého moře a protéká městy jako Budapešť a Vídeň.
+
+----------------------------------------------------------------------
+
+Otázka 5:
+  Text: 11) Pozdej div světa
+- patří mezi novodobé divy světa a měl být postaven zhruba v letech 1460–1470
+- díky své poloze nebyl div jednoduše objevitelný kýmkoliv, kdo by ho mohl zničit či rozkrást
+- nachází se v Andách na území Peru
+  Odpověď: Machu Picchu
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 85%
+    Opravy:
+      • 'Pozdej' → 'Později'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď 'Machu Picchu' odpovídá očekávané odpovědi, protože splňuje všechny uvedené charakteristiky.
+
+----------------------------------------------------------------------
+
+Otázka 6:
+  Text: T. Tipněte si, jaká je vzdálenost vzdušnou čarou mezi obcí Řitka (cca 1400 obyvatel) a obcí Pičín (cca 660 obyvatel).
+  Odpověď: 24 km
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané hodnotě 24 km.
+
+----------------------------------------------------------------------
+
+
+======================================================================
+TÉMA 9: 9. Kvízový detektiv
+======================================================================
+
+Otázka 1:
+  Text: 1. Jedná se o moderní taneční disciplínu, která spojuje dohromady prvky několika tanců. Balet, valčík nebo salsu s moderními prvky gymnastiky, akrobacie, moderního a volného tance. Cvičenky tancují s vertikálním zafixovanou pomůckou, která se nachází v názvu této disciplíny. Jaké dvouslovné anglické označení toto cvičení nese?
+  Odpověď: Pole Dance
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 85%
+    Opravy:
+      • 'zafixovanou' → 'zafixovanou'
+      • 'Cvičenky' → 'Cvičenci'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď 'Pole Dance' odpovídá očekávané odpovědi a je správná.
+
+----------------------------------------------------------------------
+
+Otázka 2:
+  Text: 2. Jakou dvouslovnou přezdívku měla politička, která se stala premiérkou v roce 1979 jako první žena své země. V úřadu zůstala nepřetržitě přes 11,5 roku, nejdéle ze všech hlav britské vlády ve 20. století.
+  Odpověď: Železná Lady
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi 'Železná Lady', což je přezdívka Margaret Thatcher.
+
+----------------------------------------------------------------------
+
+Otázka 3:
+  Text: 3. Které číslo nese v rámci koulí na pool "oranžová půlka". Plus logická nápověda
+  Odpověď: 13
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'oranžová půlka' → 'oranžová půlka.'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Oranžová půlka v poolu je číslo 13.
+
+----------------------------------------------------------------------
+
+Otázka 4:
+  Text: 4. Jak se jmenuje majitel a šéfkuchař restaurace, která vlastní Michelinskou hvězdu a nachází se v Olomouci?
+  Odpověď: Přemek Forejt
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď 'Přemek Forejt' odpovídá očekávané odpovědi a je přesná.
+
+----------------------------------------------------------------------
+
+Otázka 5:
+  Text: 5. Jaký je název bondovky, kterou můžeme vidět na obrázku?
+  Odpověď: Zlaté oko
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Zadaná odpověď přesně odpovídá očekávané odpovědi.
+
+----------------------------------------------------------------------
+
+Otázka 6:
+  Text: 6. Přemysl Otakar II.
+  Odpověď: 
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+----------------------------------------------------------------------
+
+
+======================================================================
+TÉMA 10: 10. Mohl?
+======================================================================
+
+Otázka 1:
+  Text: 7) Mohl teoreticky bývalý prezident USA Abraham Lincoln použít službu Pony express a poslat zásilku vynálezci Thomasovi Alva Edisonovi?
+  Odpověď: ANO
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Pony Express byl v provozu mezi lety 1860 a 1861, zatímco Abraham Lincoln byl prezidentem od 1861 do 1865. Thomas Edison vynalezl mnoho věcí, ale jeho významné období vynálezů nastalo po této době. Nicméně, odpověď 'ANO' je správná, protože Lincoln teoreticky mohl použít Pony Express pro zaslání zprávy.
+
+----------------------------------------------------------------------
+
+Otázka 2:
+  Text: 8) Mohl teoreticky dramatik Josef Kajetán Tyl nebo sir Nicholas Winton navštívit první novodobé olympijské hry?
+  Odpověď: NE
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 100%
+    Vysvětlení: Obě osoby, Josef Kajetán Tyl a sir Nicholas Winton, nežily v době prvních novodobých olympijských her, které se konaly v Athénách v roce 1896. Odpověď 'NE' je korektní.
+
+----------------------------------------------------------------------
+
+Otázka 3:
+  Text: 9) Mohla teoreticky herečka Jiřina Bohdalová vidět z Žižkovské televizní věže pomník J. V. Stalina na Letné?
+  Odpověď: NE
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Žižkovská televizní věž je vzdálena od Letné, kde se nacházel pomník J. V. Stalina, takže herečka Jiřina Bohdalová teoreticky nemohla vidět tento pomník z uvedené lokace.
+
+----------------------------------------------------------------------
+
+Otázka 4:
+  Text: 10) Mohl teoreticky anglický dramatik Wiliam Shakespear nebo lord protektor Oliver Cromwell použít Guttenbergův knihtisk (jakýkoliv)?
+  Odpověď: ANO
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 90%
+    Opravy:
+      • 'Wiliam Shakespear' → 'William Shakespeare'
+      • 'Guttenbergův' → 'Gutenbergův'
+      • 'jakýkoliv' → 'jakýkoli'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Odpověď je správná, protože Gutenbergův knihtisk byl vynalezen v 15. století a byl dostupný dlouho před životem obou historických osobností, což umožňuje teoretickou možnost použití.
+
+----------------------------------------------------------------------
+
+Otázka 5:
+  Text: 11) Mohl teoreticky herec Charlie Chaplin a zápasník Gustav Frištenský přežít zkázu Titanicu?
+  Odpověď: ANO
+
+  GRAMATIKA:
+    ⚠️  Status: CHYBY NALEZENY
+    Jistota: 95%
+    Opravy:
+      • 'Mohl teoreticky herec Charlie Chaplin a zápasník Gustav Frištenský přežít zkázu Titanicu?' → 'Mohl teoreticky herec Charlie Chaplin a zápasník Gustav Frištenský přežít zkázu Titanicu.'
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 90%
+    Vysvětlení: Odpověď je správná, protože teoreticky mohl Chaplin a Frištenský přežít, pokud by se nacházeli na palubě a dokázali by najít záchranné čluny.
+
+----------------------------------------------------------------------
+
+Otázka 6:
+  Text: T) Tipněte, jaký byl dle ČSÚ pro školní rok 2024/2025 celkový počet absolventů vysokých škol (veřejných i soukromých dohromady).
+  Odpověď: 66 379
+
+  GRAMATIKA:
+    ✓ Status: OK
+    Jistota: 90%
+
+  ODPOVĚĎ:
+    ✓ Status: SPRÁVNÁ
+    Jistota: 95%
+    Vysvětlení: Zadaná odpověď se shoduje s očekávanou odpovědí.
+
+----------------------------------------------------------------------
+
+
+======================================================================
+SOUHRN
+======================================================================
+Celkem otázek: 60
+Gramatické chyby: 27
+Odpovědi s nízkou jistotou: 0
+======================================================================

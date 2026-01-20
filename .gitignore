@@ -1,6 +1,8 @@
-# Google API credentials - NEVER commit these!
+# Google API credentials and secrets - NEVER commit these!
 credentials.json
+token_grammar.json
 token.json
+.env
 
 # Python cache
 __pycache__/

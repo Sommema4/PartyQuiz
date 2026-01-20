@@ -152,11 +152,48 @@ Vytvoří se:
 
 ## Soubory v projektu
 
-- `generate_google_slides.py` - Hlavní skript
+- `generate_google_slides.py` - Hlavní skript pro generování prezentací
+- `grammar_check.py` - Skript pro kontrolu gramatiky a zápis oprav do sloupce D
+- `llm_interface.py` - Rozhraní pro komunikaci s LLM
 - `credentials.json` - OAuth2 přihlašovací údaje (NESDÍLEJTE!)
 - `token.json` - Token pro přihlášení (vytváří se automaticky, NESDÍLEJTE!)
 - `requirements.txt` - Seznam potřebných Python balíčků
 - `.gitignore` - Chrání citlivé soubory před nahráním na Git
+
+## Kontrola gramatiky
+
+Skript `grammar_check.py` kontroluje gramatiku otázek a ukládá opravené verze do sloupce D tabulky.
+
+### Spuštění kontroly gramatiky
+
+```bash
+python grammar_check.py
+```
+
+### Co skript dělá
+
+1. **Přečte otázky** ze sloupců A-C tabulky
+2. **Zkontroluje gramatiku** každé otázky pomocí LLM
+3. **Zapíše do sloupce D:**
+   - Opravenou verzi otázky (pokud byly nalezeny chyby)
+   - Původní text (pokud nebyly nalezeny chyby)
+4. **Vytvoří report** v souboru `grammar_check_report.txt` se souhrnem všech změn
+
+### Výstup
+
+- **Sloupec D tabulky:** Obsahuje opravené nebo ověřené otázky
+- **grammar_check_report.txt:** Textový report s detaily všech kontrol a oprav
+
+### Příklad použití
+
+```bash
+# 1. Kontrola gramatiky a zápis do sloupce D
+python grammar_check.py
+
+# 2. Zkontrolujte sloupec D v tabulce - tam najdete opravené otázky
+
+# 3. Pokud souhlasíte s opravami, můžete je zkopírovat zpět do sloupce A
+```
 
 ## Poznámky
 

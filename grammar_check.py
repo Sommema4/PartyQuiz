@@ -172,58 +172,18 @@ def check_grammar_and_collect_corrections(data, llm):
         else:
             confidence = grammar_result.get('confidence', 0)
             print(f"  ✓ No issues (confidence: {confidence}%)")
-            
-            # Write original text to column D to indicate it was checked
-            corrections.append({
-                'row': idx,
-                'original': question_text,
-                'corrected': question_text,  # Same as original - no changes needed
-                'confidence': confidence,
-                'has_errors': False
-            })
+            # Don't add to corrections list - leave column D blank
         
         if 'error' in grammar_result:
             print(f"  ⚠️  Error: {grammar_result['error']}")
     
     print("\n" + "="*70)
     print(f"✓ Grammar check complete")
-    print(f"  Total questions checked: {len(corrections)}")
-    print(f"  Questions with errors: {sum(1 for c in corrections if c['has_errors'])}")
+    print(f"  Total questions checked: {len(data) - 1}")  # Minus header row
+    print(f"  Questions with errors: {len(corrections)}")
     print("="*70 + "\n")
     
     return corrections
-
-
-def generate_summary_report(corrections, output_file="grammar_check_report.txt"):
-    """Generates a human-readable summary report."""
-    from datetime import datetime
-    
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write("="*70 + "\n")
-        f.write("GRAMMAR CHECK REPORT\n")
-        f.write(f"Date: {datetime.now().strftime('%d.%m.%Y %H:%M:%S')}\n")
-        f.write("="*70 + "\n\n")
-        
-        total_checked = len(corrections)
-        total_errors = sum(1 for c in corrections if c['has_errors'])
-        
-        f.write(f"Total questions checked: {total_checked}\n")
-        f.write(f"Questions with grammar issues: {total_errors}\n")
-        f.write(f"Questions without issues: {total_checked - total_errors}\n\n")
-        
-        if total_errors > 0:
-            f.write("="*70 + "\n")
-            f.write("CORRECTIONS\n")
-            f.write("="*70 + "\n\n")
-            
-            for correction in corrections:
-                if correction['has_errors']:
-                    f.write(f"Row {correction['row']}:\n")
-                    f.write(f"  Original:  {correction['original']}\n")
-                    f.write(f"  Corrected: {correction['corrected']}\n")
-                    f.write(f"  Confidence: {correction['confidence']}%\n\n")
-    
-    print(f"✓ Report saved to: {output_file}")
 
 
 def main():
@@ -257,14 +217,9 @@ def main():
     print("📝 Writing corrections to spreadsheet (column D)...")
     write_corrections_to_sheet(creds, SPREADSHEET_ID, SHEET_NAME, corrections)
     
-    # Generate summary report
-    print("\n📄 Generating summary report...")
-    generate_summary_report(corrections)
-    
     print("\n" + "="*70)
     print("✓ Grammar check complete!")
     print("  • Corrected questions saved to column D")
-    print("  • Summary report saved to grammar_check_report.txt")
     print("="*70 + "\n")
 
 

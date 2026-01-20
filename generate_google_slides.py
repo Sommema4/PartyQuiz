@@ -4,7 +4,6 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-from llm_interface import LLMInterface
 
 # Google Spreadsheet and Slides details
 SPREADSHEET_ID = "19o12YCNMoeEY4UBvScqW2vDv35rbC21RelnUcn__ExM"
@@ -116,185 +115,6 @@ def parse_quiz(data):
         i += 1
     
     return topics
-
-
-def check_quiz_with_llm(topics, llm):
-    """
-    Checks quiz questions and answers using LLM.
-    - Checks Czech grammar in questions
-    - Validates answers (only when LLM is confident >= 80%)
-    
-    Returns topics with added 'llm_checks' field for each question.
-    """
-    print("\n" + "="*60)
-    print("🤖 Checking quiz with LLM...")
-    print("="*60)
-    
-    for topic_idx, topic in enumerate(topics):
-        print(f"\n📚 Téma {topic_idx + 1}: {topic['topic_name']}")
-        
-        for q_idx, question in enumerate(topic['questions']):
-            print(f"\n  Otázka {q_idx + 1}: {question['question'][:50]}...")
-            
-            # Check Czech grammar
-            print("    ⏳ Kontrola gramatiky...", end=" ")
-            grammar_result = llm.check_czech_grammar(question['question'])
-            
-            if grammar_result.get('has_errors'):
-                print(f"⚠️  Nalezeny chyby (jistota: {grammar_result.get('confidence', 0)}%)")
-                for correction in grammar_result.get('corrections', []):
-                    print(f"       • '{correction.get('original')}' → '{correction.get('corrected')}'")
-            else:
-                print(f"✓ OK (jistota: {grammar_result.get('confidence', 0)}%)")
-            
-            # Store grammar check result
-            question['llm_checks'] = {
-                'grammar': grammar_result
-            }
-            
-            # Check answer correctness if answer is provided
-            if question.get('answer') and question['answer'].strip():
-                print(f"    ⏳ Kontrola odpovědi...", end=" ")
-                # Use the question as context, empty provided answer means we trust the given answer
-                # Here we're just validating if the answer makes sense for the question
-                answer_result = llm.check_answer_correctness(
-                    question['question'],
-                    question['answer'],
-                    question['answer']  # Check against itself to verify it makes sense
-                )
-                
-                confidence = answer_result.get('confidence', 0)
-                if confidence >= 80:
-                    print(f"✓ Odpověď vypadá správně (jistota: {confidence}%)")
-                else:
-                    print(f"⚠️  Nízká jistota o odpovědi ({confidence}%): {answer_result.get('explanation', 'Bez vysvětlení')}")
-                
-                question['llm_checks']['answer'] = answer_result
-            else:
-                print(f"    ℹ️  Žádná odpověď k ověření")
-    
-    print("\n" + "="*60)
-    print("✓ LLM kontrola dokončena")
-    print("="*60 + "\n")
-    
-    return topics
-
-
-def save_llm_check_results(topics, filename="llm_check_results.txt"):
-    """
-    Saves LLM check results to a text file.
-    Creates both a human-readable report and a JSON file with detailed data.
-    """
-    import json
-    from datetime import datetime
-    
-    # Save human-readable report
-    with open(filename, 'w', encoding='utf-8') as f:
-        f.write("="*70 + "\n")
-        f.write("LLM KONTROLA KVÍZU - VÝSLEDKY\n")
-        f.write(f"Datum: {datetime.now().strftime('%d.%m.%Y %H:%M:%S')}\n")
-        f.write("="*70 + "\n\n")
-        
-        total_questions = 0
-        grammar_issues = 0
-        answer_issues = 0
-        
-        for topic_idx, topic in enumerate(topics):
-            f.write(f"\n{'='*70}\n")
-            f.write(f"TÉMA {topic_idx + 1}: {topic['topic_name']}\n")
-            f.write(f"{'='*70}\n\n")
-            
-            for q_idx, question in enumerate(topic['questions']):
-                total_questions += 1
-                f.write(f"Otázka {q_idx + 1}:\n")
-                f.write(f"  Text: {question['question']}\n")
-                f.write(f"  Odpověď: {question.get('answer', 'N/A')}\n\n")
-                
-                # Grammar check results
-                if 'llm_checks' in question and 'grammar' in question['llm_checks']:
-                    grammar = question['llm_checks']['grammar']
-                    f.write(f"  GRAMATIKA:\n")
-                    
-                    if grammar.get('has_errors'):
-                        grammar_issues += 1
-                        f.write(f"    ⚠️  Status: CHYBY NALEZENY\n")
-                        f.write(f"    Jistota: {grammar.get('confidence', 0)}%\n")
-                        f.write(f"    Opravy:\n")
-                        for correction in grammar.get('corrections', []):
-                            f.write(f"      • '{correction.get('original')}' → '{correction.get('corrected')}'\n")
-                    else:
-                        f.write(f"    ✓ Status: OK\n")
-                        f.write(f"    Jistota: {grammar.get('confidence', 0)}%\n")
-                    
-                    if 'error' in grammar:
-                        f.write(f"    ⚠️  Chyba: {grammar['error']}\n")
-                    
-                    f.write("\n")
-                
-                # Answer check results
-                if 'llm_checks' in question and 'answer' in question['llm_checks']:
-                    answer = question['llm_checks']['answer']
-                    f.write(f"  ODPOVĚĎ:\n")
-                    
-                    confidence = answer.get('confidence', 0)
-                    if confidence >= 80:
-                        f.write(f"    ✓ Status: SPRÁVNÁ\n")
-                    else:
-                        answer_issues += 1
-                        f.write(f"    ⚠️  Status: NÍZKÁ JISTOTA\n")
-                    
-                    f.write(f"    Jistota: {confidence}%\n")
-                    if 'explanation' in answer:
-                        f.write(f"    Vysvětlení: {answer['explanation']}\n")
-                    
-                    f.write("\n")
-                
-                f.write("-"*70 + "\n\n")
-        
-        # Summary
-        f.write("\n" + "="*70 + "\n")
-        f.write("SOUHRN\n")
-        f.write("="*70 + "\n")
-        f.write(f"Celkem otázek: {total_questions}\n")
-        f.write(f"Gramatické chyby: {grammar_issues}\n")
-        f.write(f"Odpovědi s nízkou jistotou: {answer_issues}\n")
-        f.write("="*70 + "\n")
-    
-    print(f"✓ Výsledky kontroly uloženy do souboru: {filename}")
-    
-    # Save JSON version for programmatic access
-    json_filename = filename.replace('.txt', '.json')
-    json_data = {
-        'timestamp': datetime.now().isoformat(),
-        'summary': {
-            'total_questions': total_questions,
-            'grammar_issues': grammar_issues,
-            'answer_issues': answer_issues
-        },
-        'topics': []
-    }
-    
-    for topic in topics:
-        topic_data = {
-            'topic_name': topic['topic_name'],
-            'questions': []
-        }
-        
-        for question in topic['questions']:
-            q_data = {
-                'question': question['question'],
-                'answer': question.get('answer', ''),
-                'notes': question.get('notes', ''),
-                'llm_checks': question.get('llm_checks', {})
-            }
-            topic_data['questions'].append(q_data)
-        
-        json_data['topics'].append(topic_data)
-    
-    with open(json_filename, 'w', encoding='utf-8') as f:
-        json.dump(json_data, f, ensure_ascii=False, indent=2)
-    
-    print(f"✓ JSON data uložena do souboru: {json_filename}")
 
 
 def create_presentation(creds, title, topics_data, folder_id=None):
@@ -492,15 +312,6 @@ def main():
     
     for i, topic in enumerate(topics):
         print(f"  Topic {i+1}: {topic['topic_name']} ({len(topic['questions'])} questions)")
-    
-    # Initialize LLM and check quiz
-    try:
-        llm = LLMInterface()
-        topics = check_quiz_with_llm(topics, llm)
-        save_llm_check_results(topics)
-    except Exception as e:
-        print(f"\n⚠️  Warning: LLM check failed: {e}")
-        print("Continuing without LLM checks...\n")
     
     # Create presentations - 2 topics per presentation
     presentation_ids = []

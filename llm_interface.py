@@ -16,7 +16,7 @@ class LLMInterface:
         # "X-Title": "<YOUR_SITE_NAME>", # Optional. Site title for rankings on openrouter.ai.
       }
 
-  def ask(self, prompt, system_prompt="You are an expert Magic: The Gathering judge."):
+  def ask(self, prompt, system_prompt="You are a helpful assistant."):
     response = requests.post(
       url="https://openrouter.ai/api/v1/chat/completions",
       headers=self.headers,
